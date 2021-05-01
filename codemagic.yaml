@@ -15,15 +15,15 @@ workflows:
           source: true
     scripts:
       - flutter packages pub get
-#      - flutter config --enable-web
-#      - flutter test
-#      - build/web
-#      - flutter build web --release
-#      - cd build/web
-#      - 7z a -r ../web.zip ./*
-#      - cd $FCI_BUILD_DIR/build/
-#      - sudo pip3 install awscli --upgrade
-#      - aws s3 sync web/ s3://bucket-rogerio/
+      - flutter config --enable-web
+      - flutter test
+      - build/web
+      - flutter build web --release
+      - cd build/web
+      - 7z a -r ../web.zip ./*
+      - cd $FCI_BUILD_DIR/build/
+      - sudo pip3 install awscli --upgrade
+      - aws s3 sync web/ s3://bucket-rogerio/
     artifacts:
       - build/**/outputs/**/mapping.txt
       - build/web.zip
