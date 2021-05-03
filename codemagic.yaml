@@ -3,8 +3,8 @@ workflows:
     name: Workflow AWS S3
     environment:
       vars:
-        AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
-        AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+        AWS_ACCESS_KEY_ID: Encrypted(Z0FBQUFBQmdrRFZuTGd3QXVfS2dacEFiS1pqQ01DcG5PckpFdldtamVJTTd6R25kNkhYOEU4YzZfR1VDVHFCUWozbnJCWHJiOVZlSldjZzFMSEw3N2xNamtUWUROamFtYnpPeFExOTlUdXVXTVhUWW8xUGV4SEU9)
+        AWS_SECRET_ACCESS_KEY: Encrypted(Z0FBQUFBQmdrRFcxaWo5SVhaLWZvR1ppcWtBOGhKVXVEalVUTE9KNjlFaHkzV25JOHVHZnB1Um8xc3VkUEV2STJsN2hMUktHNlZTSVFiSGlBeTFrekhrZmNzS1ZNSUtiNkNiTE5wN1hwS2s4ZjhHOHVVeDhYcm1ZbGFCakE4OGJfVjlpYUZnbXk4eU0=)
       flutter: dev
     triggering:
       events:
