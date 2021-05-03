@@ -3,8 +3,8 @@ workflows:
     name: Default Workflow
     environment:
       vars:
-        AWS_ACCESS_KEY_ID: Encrypted(XXXXXXXXX)
-        AWS_SECRET_ACCESS_KEY: Encrypted(XXXXXXXXX)
+        AWS_ACCESS_KEY_ID: Encrypted(AKIAU3U5I4TZYAMMP2GY)
+        AWS_SECRET_ACCESS_KEY: Encrypted(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)
       flutter: dev
     triggering:
       events:
